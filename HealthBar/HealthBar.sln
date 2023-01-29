@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthBar", "HealthBar\HealthBar.csproj", "{4ACF36FC-0FFA-410C-85E4-FDDEBCF91BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacMan", "PacMan\PacMan.csproj", "{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ACF36FC-0FFA-410C-85E4-FDDEBCF91BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACF36FC-0FFA-410C-85E4-FDDEBCF91BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACF36FC-0FFA-410C-85E4-FDDEBCF91BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACF36FC-0FFA-410C-85E4-FDDEBCF91BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE33B796-12AD-4DD2-BB8F-605A2F83FBA9}
+	EndGlobalSection
+EndGlobal
