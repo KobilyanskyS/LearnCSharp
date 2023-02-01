@@ -17,12 +17,13 @@
                 }
             });
 
-            int pacmanX = 17;
-            int pacmanY = 6;
+            int pacmanX = 19;
+            int pacmanY = 7;
             int score = 0;
 
+            bool isRunning = true;
 
-            while (true)
+            while (isRunning)
             {
                 Console.Clear();
 
@@ -41,6 +42,20 @@
 
                 Thread.Sleep(125);
 
+                if (score >= 369)
+                {
+                    isRunning = false;
+                }
+
+            }
+
+            if (score >= 369)
+            {
+                char[,] win = ReadMap("win.txt");
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Green;
+                DrawMap(win);
+                Console.ReadKey();
             }
             
         }
@@ -101,19 +116,19 @@
         { 
             int[] direction = { 0, 0 };
 
-            if (pressedKey.Key == ConsoleKey.UpArrow)
+            if (pressedKey.Key == ConsoleKey.UpArrow || pressedKey.Key == ConsoleKey.W)
             {
                 direction[1] = -1;
             }
-            else if (pressedKey.Key == ConsoleKey.DownArrow)
+            else if (pressedKey.Key == ConsoleKey.DownArrow || pressedKey.Key == ConsoleKey.S)
             {
                 direction[1] = 1;
             }
-            else if (pressedKey.Key == ConsoleKey.LeftArrow)
+            else if (pressedKey.Key == ConsoleKey.LeftArrow || pressedKey.Key == ConsoleKey.A)
             {
                 direction[0] = -1;
             }
-            else if (pressedKey.Key == ConsoleKey.RightArrow)
+            else if (pressedKey.Key == ConsoleKey.RightArrow || pressedKey.Key == ConsoleKey.D)
             {
                 direction[0] = 1;
             }
