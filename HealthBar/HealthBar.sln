@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacMan", "PacMan\PacMan.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeAdmin", "CafeAdmin\CafeAdmin.csproj", "{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasARelation", "HasARelation\HasARelation.csproj", "{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
