@@ -29,29 +29,9 @@
         private int _x;
         private int _y;
 
-        public int X
-        {
-            get
-            {
-                return _x;
-            }
-            private set
-            {
-                _x = value;
-            }
-        }
+        public int X { get; private set; }
 
-        public int Y
-        {
-            get
-            {
-                return _y;
-            }
-            private set
-            {
-                _y = value;
-            }
-        }
+        public int Y { get; private set; }
 
         public Player(int x, int y)
         {
