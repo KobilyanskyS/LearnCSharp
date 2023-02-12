@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeAdmin", "CafeAdmin\Cafe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasARelation", "HasARelation\HasARelation.csproj", "{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is-a_Relation", "Is-a_Relation\Is-a_Relation.csproj", "{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Is-a_Relation", "Is-a_Relation\Is-a_Relation.csproj", "{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Props", "Props\Props.csproj", "{0D82F737-A403-4FD7-8BD5-5DFD0FFEAE12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D82F737-A403-4FD7-8BD5-5DFD0FFEAE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D82F737-A403-4FD7-8BD5-5DFD0FFEAE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D82F737-A403-4FD7-8BD5-5DFD0FFEAE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D82F737-A403-4FD7-8BD5-5DFD0FFEAE12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
