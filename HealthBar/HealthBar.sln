@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthBar", "HealthBar\Heal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacMan", "PacMan\PacMan.csproj", "{BABF0599-FAAE-4D3A-8889-5D9CA2CFBDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeAdmin", "CafeAdmin\CafeAdmin.csproj", "{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeAdmin", "CafeAdmin\CafeAdmin.csproj", "{E6D99514-24DA-43E0-9B38-D3BFD7F55F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasARelation", "HasARelation\HasARelation.csproj", "{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasARelation", "HasARelation\HasARelation.csproj", "{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is-a_Relation", "Is-a_Relation\Is-a_Relation.csproj", "{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4338B08C-9A4A-4A89-A7AF-BBBE3D641F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C08D9F-C1AD-4EAC-8857-0F1710D95AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

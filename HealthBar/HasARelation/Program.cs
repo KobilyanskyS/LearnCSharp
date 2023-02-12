@@ -7,7 +7,7 @@
             Performer performer1 = new Performer("Пупа");
             Performer performer2 = new Performer("Лупа");
 
-            Task[] tasks = { new Task(new Performer("Пупа"), "Вскопать грядку"), new Task(performer2, "Чиллить") };
+            Task[] tasks = { new Task(performer1, "Вскопать грядку"), new Task(performer2, "Чиллить") };
 
             Board schedule = new Board(tasks);
 
